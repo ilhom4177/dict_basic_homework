@@ -13,4 +13,4 @@ def create_dictionary(key, value):
         dict[key[i]] =  value[i]
         i +=1
     return dict
-print(create_dictionary([1,2,3],['o','p','r']))
+print(create_dictionary([1,2,3,4],['Qobiljon','Ilom','Javohir','Davronxon']))
