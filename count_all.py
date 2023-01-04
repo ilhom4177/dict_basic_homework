@@ -7,4 +7,17 @@ def count_all(txt):
     Returns:
         dict: dictionary with letters and digits
     """
-    return
+    i = 0
+    counted = {}
+    alpha = 0
+    digit = 0
+    while i < len(txt):
+        if txt[i].isalpha():
+            alpha += 1
+        if txt[i].isdigit():
+            digit += 1
+        counted["LETTERS"] = alpha
+        counted["DIGITS"] = digit
+        i += 1
+    return counted
+print(count_all('Codeschool 2023'))
